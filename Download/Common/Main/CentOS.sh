@@ -63,7 +63,7 @@ echo "--------------------------------------------------------------------------
 
 echo -e "\n"
 sudo cd /root
-rpm -Uvh --force https://raw.githubusercontent.com/MeowLove/Linux-Remote-Desktop-Environment/master/Download/CentOS/Nux-Dextop/nux-dextop-release-0-5.el7.nux.noarch.rpm --quiet
+rpm -Uvh --force https://raw.githubusercontent.com/huua365/Linux-Remote-Desktop-Environment/master/Download/CentOS/Nux-Dextop/nux-dextop-release-0-5.el7.nux.noarch.rpm --quiet
 yum install remmina remmina-plugins-* -y
 echo "---------------------------------------------------------------------------------------------------------------------"
 echo -e "\033[32m Remmina FileZilla Firefox Already installed  is [OK] \033[0m"
@@ -76,17 +76,17 @@ yum install libX11-devel freetype-devel zlib-devel libxcb-devel libxslt-devel li
 rpm -Uvh --force https://raw.githubusercontent.com/MeowLove/Linux-Remote-Desktop-Environment/master/Download/CentOS/Wine/wine32-release.rpm --quiet
 yum install wine.i686 -y
 yum install wine -y
-sudo wget -O /usr/share/wine/fonts/msyh.ttc https://raw.githubusercontent.com/MeowLove/Linux-Remote-Desktop-Environment/master/Download/Common/Fonts/TTF-Wine/msyh.ttc
-sudo wget -O /usr/share/wine/fonts/msyhbd.ttc https://raw.githubusercontent.com/MeowLove/Linux-Remote-Desktop-Environment/master/Download/Common/Fonts/TTF-Wine/msyhbd.ttc
-sudo wget -O /usr/share/wine/fonts/msyhl.ttc https://raw.githubusercontent.com/MeowLove/Linux-Remote-Desktop-Environment/master/Download/Common/Fonts/TTF-Wine/msyhl.ttc
-sudo wget -O /usr/share/wine/fonts/simfang.ttf https://raw.githubusercontent.com/MeowLove/Linux-Remote-Desktop-Environment/master/Download/Common/Fonts/TTF-Wine/simfang.ttf
-sudo wget -O /usr/share/wine/fonts/simhei.ttf https://raw.githubusercontent.com/MeowLove/Linux-Remote-Desktop-Environment/master/Download/Common/Fonts/TTF-Wine/simhei.ttf
-sudo wget -O /usr/share/wine/fonts/simkai.ttf https://raw.githubusercontent.com/MeowLove/Linux-Remote-Desktop-Environment/master/Download/Common/Fonts/TTF-Wine/simkai.ttf
-sudo wget -O /usr/share/wine/fonts/SIMLI.ttf https://raw.githubusercontent.com/MeowLove/Linux-Remote-Desktop-Environment/master/Download/Common/Fonts/TTF-Wine/SIMLI.ttf
-sudo wget -O /usr/share/wine/fonts/simsun.ttc https://raw.githubusercontent.com/MeowLove/Linux-Remote-Desktop-Environment/master/Download/Common/Fonts/TTF-Wine/simsun.ttc
-sudo wget -O /usr/share/wine/fonts/SIMYOU.ttf https://raw.githubusercontent.com/MeowLove/Linux-Remote-Desktop-Environment/master/Download/Common/Fonts/TTF-Wine/SIMYOU.ttf
-sudo wget -O /usr/share/wine/fonts/仿宋_GB2312.ttf https://raw.githubusercontent.com/MeowLove/Linux-Remote-Desktop-Environment/master/Download/Common/Fonts/TTF-Wine/仿宋_GB2312.ttf
-sudo wget -O /usr/share/wine/fonts/楷体_GB2312.ttf https://raw.githubusercontent.com/MeowLove/Linux-Remote-Desktop-Environment/master/Download/Common/Fonts/TTF-Wine/楷体_GB2312.ttf
+sudo wget -O /usr/share/wine/fonts/msyh.ttc https://raw.githubusercontent.com/huua365/Linux-Remote-Desktop-Environment/master/Download/Common/Fonts/TTF-Wine/msyh.ttc
+sudo wget -O /usr/share/wine/fonts/msyhbd.ttc https://raw.githubusercontent.com/huua365/Linux-Remote-Desktop-Environment/master/Download/Common/Fonts/TTF-Wine/msyhbd.ttc
+sudo wget -O /usr/share/wine/fonts/msyhl.ttc https://raw.githubusercontent.com/huua365/Linux-Remote-Desktop-Environment/master/Download/Common/Fonts/TTF-Wine/msyhl.ttc
+sudo wget -O /usr/share/wine/fonts/simfang.ttf https://raw.githubusercontent.com/huua365/Linux-Remote-Desktop-Environment/master/Download/Common/Fonts/TTF-Wine/simfang.ttf
+sudo wget -O /usr/share/wine/fonts/simhei.ttf https://raw.githubusercontent.com/huua365/Linux-Remote-Desktop-Environment/master/Download/Common/Fonts/TTF-Wine/simhei.ttf
+sudo wget -O /usr/share/wine/fonts/simkai.ttf https://raw.githubusercontent.com/huua365/Linux-Remote-Desktop-Environment/master/Download/Common/Fonts/TTF-Wine/simkai.ttf
+sudo wget -O /usr/share/wine/fonts/SIMLI.ttf https://raw.githubusercontent.com/huua365/Linux-Remote-Desktop-Environment/master/Download/Common/Fonts/TTF-Wine/SIMLI.ttf
+sudo wget -O /usr/share/wine/fonts/simsun.ttc https://raw.githubusercontent.com/huua365/Linux-Remote-Desktop-Environment/master/Download/Common/Fonts/TTF-Wine/simsun.ttc
+sudo wget -O /usr/share/wine/fonts/SIMYOU.ttf https://raw.githubusercontent.com/huua365/Linux-Remote-Desktop-Environment/master/Download/Common/Fonts/TTF-Wine/SIMYOU.ttf
+sudo wget -O /usr/share/wine/fonts/仿宋_GB2312.ttf https://raw.githubusercontent.com/huua365/Linux-Remote-Desktop-Environment/master/Download/Common/Fonts/TTF-Wine/仿宋_GB2312.ttf
+sudo wget -O /usr/share/wine/fonts/楷体_GB2312.ttf https://raw.githubusercontent.com/huua365/Linux-Remote-Desktop-Environment/master/Download/Common/Fonts/TTF-Wine/楷体_GB2312.ttf
 useradd -m RdpUser
 echo "cxthhhhh.com
 cxthhhhh.com
@@ -97,16 +97,16 @@ echo "--------------------------------------------------------------------------
 
 echo -e "\n"
 cd /root
-rpm -Uvh --force https://raw.githubusercontent.com/MeowLove/Linux-Remote-Desktop-Environment/master/Download/Common/WPS/CentOS/libpng12-1.2.50-10.el7.x86_64.rpm --quiet
-rpm -Uvh --force https://raw.githubusercontent.com/MeowLove/Linux-Remote-Desktop-Environment/master/Download/Common/WPS/CentOS/mesa-libGLU-9.0.0-4.el7.x86_64.rpm --quiet
-rpm -Uvh --force https://raw.githubusercontent.com/MeowLove/Linux-Remote-Desktop-Environment/master/Download/Common/WPS/wps-office-10.1.0.5707-1.a21.x86_64.rpm --quiet
-rpm -Uvh --force https://raw.githubusercontent.com/MeowLove/Linux-Remote-Desktop-Environment/master/Download/Common/WPS/wps-office-fonts-1.0-1.noarch.rpm --quiet
-sudo wget -O /usr/share/fonts/mtextra.ttf https://raw.githubusercontent.com/MeowLove/Linux-Remote-Desktop-Environment/master/Download/Common/Fonts/TTF-Sys/mtextra.ttf
-sudo wget -O /usr/share/fonts/symbol.ttf https://raw.githubusercontent.com/MeowLove/Linux-Remote-Desktop-Environment/master/Download/Common/Fonts/TTF-Sys/symbol.ttf
-sudo wget -O /usr/share/fonts/WEBDINGS.TTF https://raw.githubusercontent.com/MeowLove/Linux-Remote-Desktop-Environment/master/Download/Common/Fonts/TTF-Sys/WEBDINGS.TTF
-sudo wget -O /usr/share/fonts/wingding.ttf https://raw.githubusercontent.com/MeowLove/Linux-Remote-Desktop-Environment/master/Download/Common/Fonts/TTF-Sys/wingding.ttf
-sudo wget -O /usr/share/fonts/WINGDNG2.ttf https://raw.githubusercontent.com/MeowLove/Linux-Remote-Desktop-Environment/master/Download/Common/Fonts/TTF-Sys/WINGDNG2.ttf
-sudo wget -O /usr/share/fonts/WINGDNG3.ttf https://raw.githubusercontent.com/MeowLove/Linux-Remote-Desktop-Environment/master/Download/Common/Fonts/TTF-Sys/WINGDNG3.ttf
+rpm -Uvh --force https://raw.githubusercontent.com/huua365/Linux-Remote-Desktop-Environment/master/Download/Common/WPS/CentOS/libpng12-1.2.50-10.el7.x86_64.rpm --quiet
+rpm -Uvh --force https://raw.githubusercontent.com/huua365/Linux-Remote-Desktop-Environment/master/Download/Common/WPS/CentOS/mesa-libGLU-9.0.0-4.el7.x86_64.rpm --quiet
+rpm -Uvh --force https://raw.githubusercontent.com/huua365/Linux-Remote-Desktop-Environment/master/Download/Common/WPS/wps-office-10.1.0.5707-1.a21.x86_64.rpm --quiet
+rpm -Uvh --force https://raw.githubusercontent.com/huua365/Linux-Remote-Desktop-Environment/master/Download/Common/WPS/wps-office-fonts-1.0-1.noarch.rpm --quiet
+sudo wget -O /usr/share/fonts/mtextra.ttf https://raw.githubusercontent.com/huua365/Linux-Remote-Desktop-Environment/master/Download/Common/Fonts/TTF-Sys/mtextra.ttf
+sudo wget -O /usr/share/fonts/symbol.ttf https://raw.githubusercontent.com/huua365/Linux-Remote-Desktop-Environment/master/Download/Common/Fonts/TTF-Sys/symbol.ttf
+sudo wget -O /usr/share/fonts/WEBDINGS.TTF https://raw.githubusercontent.com/huua365/Linux-Remote-Desktop-Environment/master/Download/Common/Fonts/TTF-Sys/WEBDINGS.TTF
+sudo wget -O /usr/share/fonts/wingding.ttf https://raw.githubusercontent.com/huua365/Linux-Remote-Desktop-Environment/master/Download/Common/Fonts/TTF-Sys/wingding.ttf
+sudo wget -O /usr/share/fonts/WINGDNG2.ttf https://raw.githubusercontent.com/huua365/Linux-Remote-Desktop-Environment/master/Download/Common/Fonts/TTF-Sys/WINGDNG2.ttf
+sudo wget -O /usr/share/fonts/WINGDNG3.ttf https://raw.githubusercontent.com/huua365/Linux-Remote-Desktop-Environment/master/Download/Common/Fonts/TTF-Sys/WINGDNG3.ttf
 sudo mkfontscale
 sudo mkfontdir
 sudo fc-cache
